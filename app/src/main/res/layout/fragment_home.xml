@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDFAE5"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="136dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:src="@drawable/hai" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:src="@drawable/search" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/con1" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/con2" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/con3" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/con4" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="27dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/con5" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/con6" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
